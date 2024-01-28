@@ -1,0 +1,98 @@
+/*  General style foundation for the site */
+*, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*  Navigation bar classes and styling */
+.navigation-header{
+    background-color:burlywood;                     /*  Background color */
+    padding: 0 15px;
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    width: 100%;
+    max-width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container > a{
+    color: ghostwhite;                            /* Text color */
+    text-decoration: none;                          /*  Remove underline */
+    font-weight: 700;                               /*  Bold font */
+    font-size: 22px;                                /*  Font size */
+}
+
+#logo-first-name{
+    padding: 0 0.5rem;
+    color: blanchedalmond;
+}
+
+#logo-last-name{
+    padding: auto;
+    font-style: italic;
+    color: #ffe5c0
+}
+
+#logo-first-name:hover, #logo-last-name:hover{
+    color: #ffcc81;                               /*  Hover color */
+    text-decoration: wavy;
+    transition: all 0.5s ease-in-out;               /*  Transition effect */
+}
+
+#navigation-items-separator{
+    width: 1px;
+    background-color: #ffe5c0;
+
+}
+
+.navigation-items{
+    color-scheme: light dark;
+    display: flex;
+    gap: 2rem;
+}
+
+.navigation-items > a{
+    color: ghostwhite;                            /* Text color */
+    text-decoration: none;                          /*  Remove underline */
+    font-family: 'Roboto', sans-serif;              /*  Font family */
+    font-weight: 500;                               /*  Bold font */
+    font-size: 16px;                                /*  Font size */
+    transition: all 0.3s ease-in-out;               /*  Transition effect */
+}
+
+.navigation-items > a:hover{
+    color: #ffd2cd;                                 /*  Hover color */
+    text-decoration: wavy;
+}
+
+.language-switcher > a{
+    color: blanchedalmond;                            /* Text color */
+    display: inline-block;
+    text-decoration: none;
+    gap: 1em;
+    padding-right: 1em;
+}
+
+.language-switcher > a:hover{
+    color: #ffd2cd;                                 /*  Hover color */
+    text-decoration: wavy;
+    transition: all 0.3s ease-in-out;               /*  Transition effect */
+}
+
+/*  Main content classes and styling */
+.main-content{
+    background-color: #ffe5c0;
+    padding: 0 15px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
