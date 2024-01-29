@@ -96,3 +96,17 @@ nav{
     justify-content: center;
     align-items: center;
 }
+
+#h1-name{
+    color: #d8a558;
+    font-size: 3em;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+#m-c-t-desc{
+    color: #d8a558;
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
